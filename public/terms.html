@@ -1,91 +1,256 @@
-<!-- cdskey.com - Terms of Service -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Terms of Service | cdskey</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Terms of Service for using cdskey digital products and SaaS.">
-  <style>
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin:0; background:#0b1120; color:#e5e7eb; }
-    .container { max-width: 900px; margin: 0 auto; padding: 40px 16px 64px; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    h2 { font-size: 1.25rem; margin-top: 1.75rem; margin-bottom: 0.25rem; }
-    p, li { font-size: 0.95rem; line-height: 1.6; color:#cbd5f5; }
-    a { color:#60a5fa; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .muted { font-size:0.8rem; color:#9ca3af; margin-top:2rem; }
-  </style>
+    <meta charset="UTF-8">
+    <title>CDSKEY – Terms of Service | Digital Payments & Secure Transactions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Terms of Service for CDSKEY (cdskey.com) covering digital products, subscriptions, acceptable use, billing, and legal obligations.">
+    <link rel="canonical" href="https://cdskey.com/terms/">
+
+    <!-- Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://cdskey.com/terms/">
+    <link rel="alternate" hreflang="ru" href="https://cdskey.com/ru/terms/">
+    <link rel="alternate" hreflang="ar" href="https://cdskey.com/ar/terms/">
+    <link rel="alternate" hreflang="x-default" href="https://cdskey.com/terms/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CDSKEY – Terms of Service">
+    <meta property="og:description" content="Legal terms for using CDSKEY digital products, APIs, and subscription services.">
+    <meta property="og:url" content="https://cdskey.com/terms/">
+    <meta property="og:site_name" content="CDSKEY">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Space Grotesk', sans-serif; overflow-x: hidden; }
+        .glow-text { text-shadow: 0 0 10px rgba(255,255,255,.7); }
+        .glow-box { box-shadow: 0 0 15px rgba(255,255,255,.5); }
+        .btn-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,.2); }
+    </style>
 </head>
-<body>
-  <div class="container">
-    <h1>Terms of Service</h1>
-    <p>Last updated: 17 November 2025</p>
 
-    <p>These Terms of Service (“Terms”) govern your access to and use of cdskey (“we”, “us”, “our”) and our website located at <a href="https://cdskey.com">https://cdskey.com</a> (the “Service”). By creating an account, accessing, or using the Service, you agree to be bound by these Terms.</p>
+<body class="bg-gray-900 text-white">
+<div id="vanta-globe" class="fixed top-0 left-0 w-full h-full z-0"></div>
 
-    <h2>1. Nature of the Service</h2>
-    <p>cdskey provides access to digital software tools and online services, including dashboards, APIs, and automation for data and transaction workflows (collectively, the “Products”). We do not operate as a bank, broker, or financial institution and we do not hold customer funds.</p>
+<div class="relative z-10 min-h-screen flex flex-col">
 
-    <h2>2. Eligibility</h2>
-    <p>You must be at least 18 years old and capable of entering into a binding agreement to use the Service. By using the Service, you represent that you meet these requirements and that the information you provide is accurate and complete.</p>
+    <!-- Header -->
+    <header class="py-6 px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-feather="shield" class="text-purple-400"></i>
+                <a href="/" class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">CDSKEY</a>
+            </div>
 
-    <h2>3. Accounts and Security</h2>
-    <ul>
-      <li>You are responsible for maintaining the confidentiality of your login credentials.</li>
-      <li>You are responsible for all activity that occurs under your account.</li>
-      <li>You must notify us immediately of any unauthorised access or security incident involving your account.</li>
-    </ul>
+            <nav class="hidden md:flex space-x-8 text-sm">
+                <a href="/" class="hover:text-purple-300 transition">Home</a>
+                <a href="/#features" class="hover:text-purple-300 transition">Solutions</a>
+                <a href="/#plans" class="hover:text-purple-300 transition">Pricing</a>
+                <a href="/#about" class="hover:text-purple-300 transition">About</a>
+                <a href="/#contact" class="hover:text-purple-300 transition">Contact</a>
+                <a href="/terms/" class="text-purple-300 font-medium">Terms</a>
+            </nav>
 
-    <h2>4. Subscriptions, Billing and Payments</h2>
-    <ul>
-      <li>Access to certain Products may require a paid subscription or one-time purchase.</li>
-      <li>Payments are processed by our payment partners and Merchant of Record (such as Paddle) on our behalf.</li>
-      <li>Prices, plans, and billing cycles will be displayed at checkout. By starting a paid plan, you authorise recurring charges until you cancel.</li>
-      <li>You can cancel a subscription at any time through your account or by contacting support. Cancellation stops future renewals; it does not automatically entitle you to a refund (see Refund Policy).</li>
-    </ul>
+            <div class="hidden md:flex space-x-3 text-sm">
+                <a href="/terms/" class="hover:text-purple-300">EN</a>
+                <a href="/ru/terms/" class="hover:text-purple-300">RU</a>
+                <a href="/ar/terms/" class="hover:text-purple-300">AR</a>
+            </div>
 
-    <h2>5. Acceptable Use</h2>
-    <p>You agree not to use the Service to:</p>
-    <ul>
-      <li>Violate any applicable law or regulation.</li>
-      <li>Engage in fraud, scams, or deceptive practices.</li>
-      <li>Interfere with or disrupt the security or performance of the Service.</li>
-      <li>Reverse engineer, decompile, or attempt to gain unauthorised access to any part of the Service.</li>
-    </ul>
+            <button class="md:hidden">
+                <i data-feather="menu" class="text-white"></i>
+            </button>
+        </div>
+    </header>
 
-    <h2>6. Intellectual Property</h2>
-    <ul>
-      <li>All rights, title, and interest in the Service and Products, including software, content, and branding, are owned by cdskey or our licensors.</li>
-      <li>We grant you a limited, non-exclusive, non-transferable license to access and use the Service for your internal business or personal use, subject to these Terms.</li>
-      <li>You may not copy, modify, resell, or create derivative works from the Service except as expressly permitted by us in writing.</li>
-    </ul>
+    <!-- Terms of Service Content -->
+    <main class="flex-grow px-4 sm:px-6 lg:px-8 pb-16">
+        <div class="max-w-5xl mx-auto">
 
-    <h2>7. No Financial or Investment Advice</h2>
-    <p>The Service may provide analytics, automation, and tooling related to data or transactions. All outputs are for informational and operational purposes only and do not constitute financial, investment, legal, or tax advice. You are solely responsible for any decisions made using the Service.</p>
+            <!-- Hero / Title -->
+            <section class="mt-4 sm:mt-10 mb-10 text-center">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 glow-text">Terms of Service</h1>
+                <p class="text-sm sm:text-base text-gray-300">Last updated: 17 November 2025</p>
+                <p class="mt-3 text-sm sm:text-base text-gray-400 max-w-2xl mx-auto">
+                    These Terms of Service (“Terms”) govern your access to and use of CDSKEY and our website
+                    <a href="https://cdskey.com" class="text-purple-300 underline hover:text-purple-200">https://cdskey.com</a>.
+                    By accessing or using the Service, you agree to be bound by these Terms.
+                </p>
+            </section>
 
-    <h2>8. Third-Party Services</h2>
-    <p>The Service may integrate with third-party platforms (for example, payment processors or data providers). Your use of any third-party service is subject to that provider’s terms, not ours. We are not responsible for third-party services.</p>
+            <!-- Policy Body -->
+            <section class="bg-gray-800/80 border border-gray-700 rounded-2xl p-6 sm:p-8 lg:p-10 space-y-8 glow-box text-sm sm:text-base leading-relaxed text-gray-200">
 
-    <h2>9. Termination</h2>
-    <p>We may suspend or terminate your access to the Service at any time, with or without notice, if we believe you have violated these Terms or if we discontinue the Service. You may stop using the Service and request account closure at any time.</p>
+                <!-- 1 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">1. Nature of the Service</h2>
+                    <p class="text-gray-300">
+                        CDSKEY provides access to digital software tools, dashboards, APIs, and automation workflows (“Products”).
+                        We do not hold customer funds and are not a bank, broker, or financial institution.
+                    </p>
+                </div>
 
-    <h2>10. Disclaimers</h2>
-    <ul>
-      <li>The Service is provided “as is” and “as available” without warranties of any kind, whether express or implied.</li>
-      <li>We do not guarantee that the Service will be uninterrupted, secure, or error-free, or that data processed through the Service will be accurate or complete.</li>
-    </ul>
+                <!-- 2 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">2. Eligibility</h2>
+                    <p class="text-gray-300">
+                        You must be at least 18 years old and legally capable of entering into a binding agreement.
+                        By using the Service, you represent that this information is accurate.
+                    </p>
+                </div>
 
-    <h2>11. Limitation of Liability</h2>
-    <p>To the maximum extent permitted by law, cdskey and its owners, employees, and partners shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits or revenue, whether incurred directly or indirectly, arising out of or related to your use of the Service.</p>
+                <!-- 3 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">3. Accounts and Security</h2>
+                    <ul class="list-disc list-inside ml-3 space-y-1 text-gray-300">
+                        <li>You are responsible for your login credentials.</li>
+                        <li>You are responsible for all activity under your account.</li>
+                        <li>You must notify us immediately if you suspect unauthorized use.</li>
+                    </ul>
+                </div>
 
-    <h2>12. Changes to the Service and Terms</h2>
-    <p>We may update the Service and these Terms from time to time. If we make material changes, we will notify you by updating the “Last updated” date or by other reasonable means. Continued use of the Service after changes become effective constitutes acceptance of the revised Terms.</p>
+                <!-- 4 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">4. Subscriptions, Billing & Payments</h2>
+                    <ul class="list-disc list-inside ml-3 space-y-1 text-gray-300">
+                        <li>Some Products require a paid subscription or one-time purchase.</li>
+                        <li>Payments are processed securely by our partners (such as Paddle).</li>
+                        <li>By subscribing, you authorize recurring charges until cancellation.</li>
+                        <li>Cancelling stops future renewals but does not guarantee refunds (see Refund Policy).</li>
+                    </ul>
+                </div>
 
-    <h2>13. Contact</h2>
-    <p>If you have questions about these Terms, you can contact us at: <a href="mailto:support@cdskey.com">support@cdskey.com</a>.</p>
+                <!-- 5 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">5. Acceptable Use</h2>
+                    <p class="text-gray-300">You agree not to:</p>
+                    <ul class="list-disc list-inside ml-3 space-y-1 text-gray-300">
+                        <li>Violate any applicable law or regulation.</li>
+                        <li>Engage in fraud, abuse, or harmful activity.</li>
+                        <li>Disrupt or compromise system security.</li>
+                        <li>Reverse engineer or misuse the Service.</li>
+                    </ul>
+                </div>
 
-    <p class="muted">This document is a general template provided for informational purposes only and does not constitute legal advice.</p>
-  </div>
+                <!-- 6 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">6. Intellectual Property</h2>
+                    <ul class="list-disc list-inside ml-3 space-y-1 text-gray-300">
+                        <li>All software, branding, and content belong to CDSKEY or our licensors.</li>
+                        <li>You receive a limited, non-transferable license to use the Service.</li>
+                        <li>Modifying, copying, or redistributing the Service is prohibited unless we authorize it.</li>
+                    </ul>
+                </div>
+
+                <!-- 7 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">7. No Financial or Investment Advice</h2>
+                    <p class="text-gray-300">
+                        Data, analytics, or automation features are informational only. They do not constitute financial, tax, legal, or investment advice.
+                    </p>
+                </div>
+
+                <!-- 8 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">8. Third-Party Services</h2>
+                    <p class="text-gray-300">
+                        The Service may integrate with external providers (e.g., payment processors). Their terms apply to you separately. We are not responsible for third-party platforms.
+                    </p>
+                </div>
+
+                <!-- 9 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">9. Termination</h2>
+                    <p class="text-gray-300">
+                        We may suspend or terminate your account at any time for violations of these Terms or if we discontinue the Service.
+                        You may request account closure at any time.
+                    </p>
+                </div>
+
+                <!-- 10 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">10. Disclaimers</h2>
+                    <ul class="list-disc list-inside ml-3 space-y-1 text-gray-300">
+                        <li>The Service is provided “as is” and “as available”.</li>
+                        <li>We do not guarantee uptime, accuracy, or error-free performance.</li>
+                    </ul>
+                </div>
+
+                <!-- 11 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">11. Limitation of Liability</h2>
+                    <p class="text-gray-300">
+                        To the fullest extent permitted by law, CDSKEY is not liable for indirect, incidental, or consequential damages,
+                        including loss of revenue or profits arising from your use of the Service.
+                    </p>
+                </div>
+
+                <!-- 12 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">12. Changes to the Service and Terms</h2>
+                    <p class="text-gray-300">
+                        We may update the Service and these Terms at any time. Continued use after changes means you accept the updated Terms.
+                    </p>
+                </div>
+
+                <!-- 13 -->
+                <div>
+                    <h2 class="text-xl font-semibold mb-3">13. Contact</h2>
+                    <p class="text-gray-300">
+                        For questions, contact:
+                        <a href="mailto:support@cdskey.com" class="text-purple-300 underline hover:text-purple-200">support@cdskey.com</a>
+                    </p>
+                </div>
+
+                <p class="text-xs text-gray-500 border-t border-gray-700 pt-4">
+                    This document is provided for informational purposes only and does not constitute legal advice.
+                </p>
+
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+        <div class="max-w-4xl mx-auto space-y-2">
+            <p>
+                © 2025 CDSKEY. All rights reserved. &middot;
+                <a href="https://cdskey.com" class="text-purple-300 hover:text-purple-200">cdskey.com</a>
+            </p>
+            <p>
+                <a href="/privacy/" class="text-gray-400 hover:text-purple-200 mr-4">Privacy Policy</a>
+                <a href="/refund/" class="text-gray-400 hover:text-purple-200 mr-4">Refund Policy</a>
+                <a href="/terms/" class="text-purple-300 hover:text-purple-200">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    VANTA.GLOBE({
+        el: "#vanta-globe",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x7f3bff,
+        backgroundColor: 0x111827,
+        size: 0.8,
+        points: 10.00
+    });
+    feather.replace();
+</script>
 </body>
 </html>
